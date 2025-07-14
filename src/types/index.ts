@@ -10,7 +10,7 @@ export interface Question {
   question: string;
   options: string[];
   correctAnswer: number;
-  category: 'Java' | 'Spring Boot';
+  category: 'Java' | 'JDBC';
   difficulty: 'Easy' | 'Medium' | 'Hard';
 }
 

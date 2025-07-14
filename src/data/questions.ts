@@ -203,205 +203,205 @@ export const questions: Question[] = [
     difficulty: "Easy"
   },
 
-  // Spring Boot Questions (25 questions)
+  // JDBC Questions (25 questions)
   {
     id: 26,
-    question: "What is Spring Boot?",
-    options: ["A lightweight framework", "An auto-configuration framework", "A microservices framework", "All of the above"],
-    correctAnswer: 3,
-    category: "Spring Boot",
+    question: "What does JDBC stand for?",
+    options: ["Java Database Connectivity", "Java Data Base Connection", "Java Database Connection", "Java Data Base Connectivity"],
+    correctAnswer: 0,
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 27,
-    question: "Which annotation is used to mark a class as a Spring Boot application?",
-    options: ["@SpringBootApplication", "@Application", "@SpringApp", "@BootApplication"],
+    question: "Which package contains JDBC classes and interfaces?",
+    options: ["java.sql", "java.jdbc", "java.database", "java.db"],
     correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 28,
-    question: "What is the default port for Spring Boot applications?",
-    options: ["8080", "8000", "3000", "9000"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    question: "What is the first step in JDBC connection process?",
+    options: ["Create Connection", "Load Driver", "Execute Query", "Create Statement"],
+    correctAnswer: 1,
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 29,
-    question: "Which annotation is used to inject dependencies in Spring Boot?",
-    options: ["@Inject", "@Autowired", "@Dependency", "@Wire"],
-    correctAnswer: 1,
-    category: "Spring Boot",
+    question: "Which method is used to establish a connection to database?",
+    options: ["DriverManager.getConnection()", "Connection.connect()", "Database.connect()", "JDBC.connect()"],
+    correctAnswer: 0,
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 30,
-    question: "What is the use of @RestController annotation?",
-    options: ["To mark a class as controller", "To return JSON response", "To handle REST requests", "All of the above"],
-    correctAnswer: 3,
-    category: "Spring Boot",
+    question: "Which interface is used to execute SQL statements?",
+    options: ["Connection", "Statement", "ResultSet", "DriverManager"],
+    correctAnswer: 1,
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 31,
-    question: "Which file is used for configuration in Spring Boot?",
-    options: ["application.properties", "config.properties", "spring.properties", "boot.properties"],
-    correctAnswer: 0,
-    category: "Spring Boot",
-    difficulty: "Easy"
-  },
-  {
-    id: 32,
-    question: "What is Spring Boot Actuator?",
-    options: ["A monitoring tool", "A security tool", "A testing tool", "A deployment tool"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    question: "What is the purpose of PreparedStatement?",
+    options: ["To execute static SQL", "To execute dynamic SQL with parameters", "To execute stored procedures", "To manage transactions"],
+    correctAnswer: 1,
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
-    id: 33,
-    question: "Which annotation is used to map HTTP GET requests?",
-    options: ["@GetMapping", "@RequestMapping", "@Get", "@HttpGet"],
+    id: 32,
+    question: "Which method is used to execute SELECT statements?",
+    options: ["executeQuery()", "executeUpdate()", "execute()", "query()"],
     correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
+    difficulty: "Easy"
+  },
+  {
+    id: 33,
+    question: "Which method is used to execute INSERT, UPDATE, DELETE statements?",
+    options: ["executeQuery()", "executeUpdate()", "execute()", "update()"],
+    correctAnswer: 1,
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 34,
-    question: "What is the purpose of @Entity annotation?",
-    options: ["To mark a class as JPA entity", "To mark a class as service", "To mark a class as controller", "To mark a class as component"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    question: "What does ResultSet represent?",
+    options: ["Database connection", "SQL statement", "Query result", "Database table"],
+    correctAnswer: 2,
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 35,
-    question: "Which annotation is used to handle exceptions globally?",
-    options: ["@ExceptionHandler", "@ControllerAdvice", "@GlobalExceptionHandler", "@ExceptionController"],
-    correctAnswer: 1,
-    category: "Spring Boot",
-    difficulty: "Medium"
-  },
-  {
-    id: 36,
-    question: "What is the use of @Service annotation?",
-    options: ["To mark business logic layer", "To mark data access layer", "To mark presentation layer", "To mark configuration layer"],
+    question: "Which method is used to move cursor to next row in ResultSet?",
+    options: ["next()", "moveNext()", "forward()", "nextRow()"],
     correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
+    id: 36,
+    question: "What is the advantage of PreparedStatement over Statement?",
+    options: ["Better performance", "Prevents SQL injection", "Supports parameterized queries", "All of the above"],
+    correctAnswer: 3,
+    category: "JDBC",
+    difficulty: "Medium"
+  },
+  {
     id: 37,
-    question: "Which annotation is used to validate request body?",
-    options: ["@Valid", "@Validated", "@Check", "@Verify"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    question: "Which method is used to set parameters in PreparedStatement?",
+    options: ["setParameter()", "setString()", "setInt()", "Both B and C"],
+    correctAnswer: 3,
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
     id: 38,
-    question: "What is Spring Boot Starter?",
-    options: ["A dependency management tool", "A project template", "A configuration tool", "All of the above"],
+    question: "What is CallableStatement used for?",
+    options: ["Executing stored procedures", "Executing functions", "Executing SQL statements", "Both A and B"],
     correctAnswer: 3,
-    category: "Spring Boot",
-    difficulty: "Easy"
-  },
-  {
-    id: 39,
-    question: "Which annotation is used to schedule tasks in Spring Boot?",
-    options: ["@Scheduled", "@Schedule", "@Task", "@Timer"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
-    id: 40,
-    question: "What is the use of @PathVariable annotation?",
-    options: ["To extract values from URL", "To extract values from request body", "To extract values from headers", "To extract values from cookies"],
+    id: 39,
+    question: "Which method is used to commit a transaction?",
+    options: ["commit()", "save()", "persist()", "flush()"],
     correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
+    difficulty: "Easy"
+  },
+  {
+    id: 40,
+    question: "Which method is used to rollback a transaction?",
+    options: ["rollback()", "undo()", "cancel()", "revert()"],
+    correctAnswer: 0,
+    category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 41,
-    question: "Which annotation is used to enable JPA repositories?",
-    options: ["@EnableJpaRepositories", "@EnableRepositories", "@JpaRepositories", "@RepositoryConfig"],
+    question: "What is auto-commit mode in JDBC?",
+    options: ["Automatic transaction management", "Automatic connection closing", "Automatic statement execution", "Automatic result processing"],
     correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
     id: 42,
-    question: "What is the use of @RequestParam annotation?",
-    options: ["To extract query parameters", "To extract path parameters", "To extract request body", "To extract headers"],
+    question: "Which method is used to disable auto-commit?",
+    options: ["setAutoCommit(false)", "disableAutoCommit()", "autoCommit(false)", "setCommit(false)"],
     correctAnswer: 0,
-    category: "Spring Boot",
-    difficulty: "Easy"
-  },
-  {
-    id: 43,
-    question: "Which annotation is used to enable caching in Spring Boot?",
-    options: ["@EnableCaching", "@Cache", "@Cacheable", "@CacheConfig"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
-    id: 44,
-    question: "What is the use of @Profile annotation?",
-    options: ["To define environment-specific beans", "To define user profiles", "To define application profiles", "To define security profiles"],
+    id: 43,
+    question: "What is a JDBC driver?",
+    options: ["Software component that connects Java to database", "Database management system", "Java library", "SQL interpreter"],
     correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
+    difficulty: "Easy"
+  },
+  {
+    id: 44,
+    question: "How many types of JDBC drivers are there?",
+    options: ["2", "3", "4", "5"],
+    correctAnswer: 2,
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
     id: 45,
-    question: "Which annotation is used to enable security in Spring Boot?",
-    options: ["@EnableWebSecurity", "@EnableSecurity", "@Security", "@WebSecurity"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    question: "Which is the most commonly used JDBC driver type?",
+    options: ["Type 1", "Type 2", "Type 3", "Type 4"],
+    correctAnswer: 3,
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
     id: 46,
-    question: "What is the use of @Transactional annotation?",
-    options: ["To manage database transactions", "To manage HTTP transactions", "To manage file transactions", "To manage network transactions"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    question: "What is Type 4 JDBC driver also known as?",
+    options: ["JDBC-ODBC Bridge", "Native-API Driver", "Network Protocol Driver", "Pure Java Driver"],
+    correctAnswer: 3,
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
     id: 47,
-    question: "Which annotation is used to create a custom auto-configuration?",
-    options: ["@AutoConfiguration", "@EnableAutoConfiguration", "@Configuration", "@CustomConfiguration"],
-    correctAnswer: 1,
-    category: "Spring Boot",
-    difficulty: "Hard"
+    question: "Which method is used to close a JDBC connection?",
+    options: ["close()", "disconnect()", "terminate()", "end()"],
+    correctAnswer: 0,
+    category: "JDBC",
+    difficulty: "Easy"
   },
   {
     id: 48,
-    question: "What is the use of @ConditionalOnProperty annotation?",
-    options: ["To conditionally load beans based on properties", "To validate properties", "To encrypt properties", "To load properties"],
-    correctAnswer: 0,
-    category: "Spring Boot",
-    difficulty: "Hard"
+    question: "What happens if you don't close JDBC resources?",
+    options: ["Memory leak", "Connection pool exhaustion", "Performance degradation", "All of the above"],
+    correctAnswer: 3,
+    category: "JDBC",
+    difficulty: "Medium"
   },
   {
     id: 49,
-    question: "Which annotation is used to enable async processing?",
-    options: ["@EnableAsync", "@Async", "@EnableAsyncProcessing", "@AsyncConfig"],
+    question: "Which interface is used to get metadata about ResultSet?",
+    options: ["ResultSetMetaData", "MetaData", "ResultMetaData", "DatabaseMetaData"],
     correctAnswer: 0,
-    category: "Spring Boot",
+    category: "JDBC",
     difficulty: "Medium"
   },
   {
     id: 50,
-    question: "What is the use of @ConfigurationProperties annotation?",
-    options: ["To bind external configuration to Java objects", "To create configuration files", "To validate configuration", "To encrypt configuration"],
-    correctAnswer: 0,
-    category: "Spring Boot",
+    question: "What is the purpose of DatabaseMetaData?",
+    options: ["To get information about database", "To get information about tables", "To get information about columns", "All of the above"],
+    correctAnswer: 3,
+    category: "JDBC",
     difficulty: "Medium"
   }
 ];
