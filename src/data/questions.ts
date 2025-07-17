@@ -1,407 +1,407 @@
 import { Question } from '../types';
 
 export const questions: Question[] = [
-  // Java Questions (25 questions)
+  // HTML Questions (25 questions)
   {
     id: 1,
-    question: "Which of the following is NOT a primitive data type in Java?",
-    options: ["int", "float", "String", "boolean"],
-    correctAnswer: 2,
-    category: "Java",
+    question: "What does HTML stand for?",
+    options: ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlink and Text Markup Language"],
+    correctAnswer: 0,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 2,
-    question: "What is the output of System.out.println(10 + 20 + \"Hello\" + 30 + 40)?",
-    options: ["30Hello70", "30Hello3040", "1020Hello3040", "50Hello70"],
-    correctAnswer: 0,
-    category: "Java",
-    difficulty: "Medium"
+    question: "Which HTML tag is used to define an internal style sheet?",
+    options: ["<css>", "<script>", "<style>", "<link>"],
+    correctAnswer: 2,
+    category: "HTML",
+    difficulty: "Easy"
   },
   {
     id: 3,
-    question: "Which keyword is used to inherit a class in Java?",
-    options: ["implements", "extends", "inherits", "super"],
-    correctAnswer: 1,
-    category: "Java",
+    question: "Which HTML element is used to specify a footer for a document or section?",
+    options: ["<bottom>", "<section>", "<footer>", "<end>"],
+    correctAnswer: 2,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 4,
-    question: "What is the default value of a boolean variable in Java?",
-    options: ["true", "false", "null", "0"],
-    correctAnswer: 1,
-    category: "Java",
+    question: "What is the correct HTML element for the largest heading?",
+    options: ["<heading>", "<h6>", "<h1>", "<header>"],
+    correctAnswer: 2,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 5,
-    question: "Which method is called when an object is created in Java?",
-    options: ["main()", "constructor", "init()", "start()"],
-    correctAnswer: 1,
-    category: "Java",
+    question: "Which attribute is used to specify the URL of the page the link goes to?",
+    options: ["link", "src", "href", "url"],
+    correctAnswer: 2,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 6,
-    question: "What is the purpose of the 'final' keyword in Java?",
-    options: ["To make a variable constant", "To prevent inheritance", "To prevent method overriding", "All of the above"],
-    correctAnswer: 3,
-    category: "Java",
-    difficulty: "Medium"
+    question: "Which HTML element is used to define important text?",
+    options: ["<important>", "<strong>", "<b>", "<i>"],
+    correctAnswer: 1,
+    category: "HTML",
+    difficulty: "Easy"
   },
   {
     id: 7,
-    question: "Which collection class allows duplicate elements?",
-    options: ["HashSet", "LinkedHashSet", "ArrayList", "TreeSet"],
+    question: "What is the correct HTML element for inserting a line break?",
+    options: ["<break>", "<lb>", "<br>", "<newline>"],
     correctAnswer: 2,
-    category: "Java",
+    category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 8,
-    question: "What is the difference between == and equals() in Java?",
-    options: ["No difference", "== compares references, equals() compares values", "== compares values, equals() compares references", "Both compare values"],
-    correctAnswer: 1,
-    category: "Java",
-    difficulty: "Medium"
+    question: "Which input type is used to create a password field?",
+    options: ["password", "text", "hidden", "secure"],
+    correctAnswer: 0,
+    category: "HTML",
+    difficulty: "Easy"
   },
   {
     id: 9,
-    question: "Which of the following is used to handle exceptions in Java?",
-    options: ["try-catch", "throw", "throws", "All of the above"],
-    correctAnswer: 3,
-    category: "Java",
+    question: "What is the correct HTML for creating a checkbox?",
+    options: ["<input type='check'>", "<input type='checkbox'>", "<checkbox>", "<check>"],
+    correctAnswer: 1,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 10,
-    question: "What is the output of: String str = null; System.out.println(str.length());",
-    options: ["0", "null", "NullPointerException", "Compilation error"],
-    correctAnswer: 2,
-    category: "Java",
-    difficulty: "Medium"
-  },
-  {
-    id: 11,
-    question: "Which access modifier allows access from anywhere?",
-    options: ["private", "protected", "public", "default"],
-    correctAnswer: 2,
-    category: "Java",
+    question: "Which HTML element is used to define a table?",
+    options: ["<table>", "<tab>", "<tbl>", "<t>"],
+    correctAnswer: 0,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
-    id: 12,
-    question: "What is autoboxing in Java?",
-    options: ["Converting object to primitive", "Converting primitive to object", "Boxing objects", "None of the above"],
+    id: 11,
+    question: "What is the correct HTML for making a drop-down list?",
+    options: ["<input type='dropdown'>", "<select>", "<list>", "<dropdown>"],
     correctAnswer: 1,
-    category: "Java",
+    category: "HTML",
+    difficulty: "Medium"
+  },
+  {
+    id: 12,
+    question: "Which HTML element is used to define navigation links?",
+    options: ["<navigation>", "<nav>", "<navigate>", "<menu>"],
+    correctAnswer: 1,
+    category: "HTML",
     difficulty: "Medium"
   },
   {
     id: 13,
-    question: "Which method is used to start a thread in Java?",
-    options: ["run()", "start()", "execute()", "begin()"],
-    correctAnswer: 1,
-    category: "Java",
+    question: "What is the correct HTML for making a text area?",
+    options: ["<input type='textbox'>", "<input type='textarea'>", "<textarea>", "<textbox>"],
+    correctAnswer: 2,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 14,
-    question: "What is the use of 'super' keyword in Java?",
-    options: ["To call parent constructor", "To access parent methods", "To access parent variables", "All of the above"],
-    correctAnswer: 3,
-    category: "Java",
-    difficulty: "Medium"
+    question: "Which HTML attribute is used to define inline styles?",
+    options: ["class", "style", "styles", "font"],
+    correctAnswer: 1,
+    category: "HTML",
+    difficulty: "Easy"
   },
   {
     id: 15,
-    question: "Which of the following is immutable in Java?",
-    options: ["ArrayList", "String", "HashMap", "StringBuilder"],
+    question: "What is the correct HTML element for playing video files?",
+    options: ["<movie>", "<video>", "<media>", "<film>"],
     correctAnswer: 1,
-    category: "Java",
-    difficulty: "Easy"
-  },
-  {
-    id: 16,
-    question: "What is the output of: System.out.println(\"Hello\".charAt(1));",
-    options: ["H", "e", "l", "o"],
-    correctAnswer: 1,
-    category: "Java",
-    difficulty: "Easy"
-  },
-  {
-    id: 17,
-    question: "Which interface is implemented by all collections in Java?",
-    options: ["List", "Set", "Collection", "Map"],
-    correctAnswer: 2,
-    category: "Java",
+    category: "HTML",
     difficulty: "Medium"
   },
   {
-    id: 18,
-    question: "What is method overloading in Java?",
-    options: ["Same method name with different parameters", "Same method name with same parameters", "Different method names", "None of the above"],
+    id: 16,
+    question: "Which HTML element is used to define a section in a document?",
+    options: ["<section>", "<div>", "<article>", "<segment>"],
     correctAnswer: 0,
-    category: "Java",
+    category: "HTML",
+    difficulty: "Medium"
+  },
+  {
+    id: 17,
+    question: "What is the correct HTML for inserting an image?",
+    options: ["<img href='image.gif'>", "<image src='image.gif'>", "<img src='image.gif'>", "<picture src='image.gif'>"],
+    correctAnswer: 2,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
+    id: 18,
+    question: "Which HTML element is used to display a scalar value within a range?",
+    options: ["<gauge>", "<meter>", "<measure>", "<range>"],
+    correctAnswer: 1,
+    category: "HTML",
+    difficulty: "Medium"
+  },
+  {
     id: 19,
-    question: "Which operator is used to check if an object is an instance of a class?",
-    options: ["instanceof", "is", "typeof", "class"],
-    correctAnswer: 0,
-    category: "Java",
+    question: "What is the correct HTML for making a numbered list?",
+    options: ["<ul>", "<ol>", "<list>", "<nl>"],
+    correctAnswer: 1,
+    category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 20,
-    question: "What is the purpose of garbage collection in Java?",
-    options: ["To clean code", "To free memory", "To optimize performance", "To handle exceptions"],
-    correctAnswer: 1,
-    category: "Java",
+    question: "Which HTML element is used to define metadata about an HTML document?",
+    options: ["<meta>", "<metadata>", "<head>", "<info>"],
+    correctAnswer: 0,
+    category: "HTML",
     difficulty: "Medium"
   },
   {
     id: 21,
-    question: "Which of the following is a checked exception in Java?",
-    options: ["NullPointerException", "ArrayIndexOutOfBoundsException", "IOException", "IllegalArgumentException"],
-    correctAnswer: 2,
-    category: "Java",
-    difficulty: "Medium"
+    question: "What is the correct HTML for creating a hyperlink?",
+    options: ["<a url='http://www.example.com'>", "<a href='http://www.example.com'>", "<a link='http://www.example.com'>", "<a>http://www.example.com</a>"],
+    correctAnswer: 1,
+    category: "HTML",
+    difficulty: "Easy"
   },
   {
     id: 22,
-    question: "What is the use of 'static' keyword in Java?",
-    options: ["To create class-level variables", "To create class-level methods", "To avoid creating objects", "All of the above"],
-    correctAnswer: 3,
-    category: "Java",
+    question: "Which HTML element is used to define an article?",
+    options: ["<article>", "<section>", "<div>", "<content>"],
+    correctAnswer: 0,
+    category: "HTML",
     difficulty: "Medium"
   },
   {
     id: 23,
-    question: "Which of the following is NOT a loop in Java?",
-    options: ["for", "while", "do-while", "repeat"],
-    correctAnswer: 3,
-    category: "Java",
-    difficulty: "Easy"
-  },
-  {
-    id: 24,
-    question: "What is the maximum value of int in Java?",
-    options: ["2147483647", "2147483648", "9223372036854775807", "65535"],
-    correctAnswer: 0,
-    category: "Java",
+    question: "What is the correct HTML for adding a background color?",
+    options: ["<background>yellow</background>", "<body style='background-color:yellow;'>", "<body bg='yellow'>", "<background-color=yellow>"],
+    correctAnswer: 1,
+    category: "HTML",
     difficulty: "Medium"
   },
   {
+    id: 24,
+    question: "Which HTML element is used to define emphasized text?",
+    options: ["<italic>", "<i>", "<em>", "<emphasis>"],
+    correctAnswer: 2,
+    category: "HTML",
+    difficulty: "Easy"
+  },
+  {
     id: 25,
-    question: "Which method is used to convert a string to uppercase in Java?",
-    options: ["toUpper()", "toUpperCase()", "upper()", "upperCase()"],
-    correctAnswer: 1,
-    category: "Java",
+    question: "What is the correct HTML for creating a form?",
+    options: ["<form>", "<input>", "<textbox>", "<textarea>"],
+    correctAnswer: 0,
+    category: "HTML",
     difficulty: "Easy"
   },
 
-  // JDBC Questions (25 questions)
+  // CSS Questions (25 questions)
   {
     id: 26,
-    question: "What does JDBC stand for?",
-    options: ["Java Database Connectivity", "Java Data Base Connection", "Java Database Connection", "Java Data Base Connectivity"],
-    correctAnswer: 0,
-    category: "JDBC",
+    question: "What does CSS stand for?",
+    options: ["Computer Style Sheets", "Creative Style Sheets", "Cascading Style Sheets", "Colorful Style Sheets"],
+    correctAnswer: 2,
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 27,
-    question: "Which package contains JDBC classes and interfaces?",
-    options: ["java.sql", "java.jdbc", "java.database", "java.db"],
+    question: "Which HTML attribute is used to define inline styles?",
+    options: ["style", "class", "styles", "font"],
     correctAnswer: 0,
-    category: "JDBC",
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 28,
-    question: "What is the first step in JDBC connection process?",
-    options: ["Create Connection", "Load Driver", "Execute Query", "Create Statement"],
-    correctAnswer: 1,
-    category: "JDBC",
+    question: "Which is the correct CSS syntax?",
+    options: ["body:color=black;", "{body;color:black;}", "body {color: black;}", "{body:color=black;}"],
+    correctAnswer: 2,
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 29,
-    question: "Which method is used to establish a connection to database?",
-    options: ["DriverManager.getConnection()", "Connection.connect()", "Database.connect()", "JDBC.connect()"],
-    correctAnswer: 0,
-    category: "JDBC",
+    question: "How do you insert a comment in a CSS file?",
+    options: ["// this is a comment", "/* this is a comment */", "# this is a comment", "<!-- this is a comment -->"],
+    correctAnswer: 1,
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 30,
-    question: "Which interface is used to execute SQL statements?",
-    options: ["Connection", "Statement", "ResultSet", "DriverManager"],
-    correctAnswer: 1,
-    category: "JDBC",
+    question: "Which property is used to change the background color?",
+    options: ["color", "bgcolor", "background-color", "background"],
+    correctAnswer: 2,
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 31,
-    question: "What is the purpose of PreparedStatement?",
-    options: ["To execute static SQL", "To execute dynamic SQL with parameters", "To execute stored procedures", "To manage transactions"],
-    correctAnswer: 1,
-    category: "JDBC",
-    difficulty: "Medium"
+    question: "Which CSS property is used to change the text color of an element?",
+    options: ["color", "text-color", "fgcolor", "font-color"],
+    correctAnswer: 0,
+    category: "CSS",
+    difficulty: "Easy"
   },
   {
     id: 32,
-    question: "Which method is used to execute SELECT statements?",
-    options: ["executeQuery()", "executeUpdate()", "execute()", "query()"],
-    correctAnswer: 0,
-    category: "JDBC",
+    question: "Which CSS property controls the text size?",
+    options: ["font-style", "text-size", "font-size", "text-style"],
+    correctAnswer: 2,
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 33,
-    question: "Which method is used to execute INSERT, UPDATE, DELETE statements?",
-    options: ["executeQuery()", "executeUpdate()", "execute()", "update()"],
+    question: "What is the correct CSS syntax for making all the <p> elements bold?",
+    options: ["p {text-size:bold;}", "p {font-weight:bold;}", "<p style='font-size:bold;'>", "p {font-size:bold;}"],
     correctAnswer: 1,
-    category: "JDBC",
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 34,
-    question: "What does ResultSet represent?",
-    options: ["Database connection", "SQL statement", "Query result", "Database table"],
-    correctAnswer: 2,
-    category: "JDBC",
+    question: "How do you display hyperlinks without an underline?",
+    options: ["a {text-decoration:none;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:no-underline;}"],
+    correctAnswer: 0,
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 35,
-    question: "Which method is used to move cursor to next row in ResultSet?",
-    options: ["next()", "moveNext()", "forward()", "nextRow()"],
+    question: "Which property is used to change the font of an element?",
+    options: ["font-family", "font-style", "font-weight", "font"],
     correctAnswer: 0,
-    category: "JDBC",
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 36,
-    question: "What is the advantage of PreparedStatement over Statement?",
-    options: ["Better performance", "Prevents SQL injection", "Supports parameterized queries", "All of the above"],
-    correctAnswer: 3,
-    category: "JDBC",
+    question: "How do you make each word in a text start with a capital letter?",
+    options: ["text-transform:capitalize;", "text-style:capitalize;", "transform:capitalize;", "text-decoration:capitalize;"],
+    correctAnswer: 0,
+    category: "CSS",
     difficulty: "Medium"
   },
   {
     id: 37,
-    question: "Which method is used to set parameters in PreparedStatement?",
-    options: ["setParameter()", "setString()", "setInt()", "Both B and C"],
-    correctAnswer: 3,
-    category: "JDBC",
-    difficulty: "Medium"
+    question: "Which property is used to change the left margin of an element?",
+    options: ["margin-left", "indent", "margin", "left-margin"],
+    correctAnswer: 0,
+    category: "CSS",
+    difficulty: "Easy"
   },
   {
     id: 38,
-    question: "What is CallableStatement used for?",
-    options: ["Executing stored procedures", "Executing functions", "Executing SQL statements", "Both A and B"],
-    correctAnswer: 3,
-    category: "JDBC",
-    difficulty: "Medium"
+    question: "What is the correct CSS syntax to make a border around an element?",
+    options: ["border {1px solid black;}", "border: 1px solid black;", "border = 1px solid black;", "border-width: 1px solid black;"],
+    correctAnswer: 1,
+    category: "CSS",
+    difficulty: "Easy"
   },
   {
     id: 39,
-    question: "Which method is used to commit a transaction?",
-    options: ["commit()", "save()", "persist()", "flush()"],
-    correctAnswer: 0,
-    category: "JDBC",
+    question: "Which CSS property is used to create space between the element's border and inner content?",
+    options: ["margin", "padding", "border-spacing", "spacing"],
+    correctAnswer: 1,
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 40,
-    question: "Which method is used to rollback a transaction?",
-    options: ["rollback()", "undo()", "cancel()", "revert()"],
-    correctAnswer: 0,
-    category: "JDBC",
+    question: "Which CSS property is used to create space around elements?",
+    options: ["padding", "margin", "border", "spacing"],
+    correctAnswer: 1,
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 41,
-    question: "What is auto-commit mode in JDBC?",
-    options: ["Automatic transaction management", "Automatic connection closing", "Automatic statement execution", "Automatic result processing"],
+    question: "Which CSS property is used to change the style of a list marker?",
+    options: ["list-style-type", "list-type", "list-style", "list-marker"],
     correctAnswer: 0,
-    category: "JDBC",
+    category: "CSS",
     difficulty: "Medium"
   },
   {
     id: 42,
-    question: "Which method is used to disable auto-commit?",
-    options: ["setAutoCommit(false)", "disableAutoCommit()", "autoCommit(false)", "setCommit(false)"],
-    correctAnswer: 0,
-    category: "JDBC",
-    difficulty: "Medium"
+    question: "How do you select an element with id 'demo'?",
+    options: [".demo", "#demo", "demo", "*demo"],
+    correctAnswer: 1,
+    category: "CSS",
+    difficulty: "Easy"
   },
   {
     id: 43,
-    question: "What is a JDBC driver?",
-    options: ["Software component that connects Java to database", "Database management system", "Java library", "SQL interpreter"],
+    question: "How do you select elements with class name 'test'?",
+    options: [".test", "#test", "test", "*test"],
     correctAnswer: 0,
-    category: "JDBC",
+    category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 44,
-    question: "How many types of JDBC drivers are there?",
-    options: ["2", "3", "4", "5"],
-    correctAnswer: 2,
-    category: "JDBC",
+    question: "Which CSS property is used to control the layout of multiple columns?",
+    options: ["column-count", "columns", "column-width", "All of the above"],
+    correctAnswer: 3,
+    category: "CSS",
     difficulty: "Medium"
   },
   {
     id: 45,
-    question: "Which is the most commonly used JDBC driver type?",
-    options: ["Type 1", "Type 2", "Type 3", "Type 4"],
-    correctAnswer: 3,
-    category: "JDBC",
-    difficulty: "Medium"
-  },
-  {
-    id: 46,
-    question: "What is Type 4 JDBC driver also known as?",
-    options: ["JDBC-ODBC Bridge", "Native-API Driver", "Network Protocol Driver", "Pure Java Driver"],
-    correctAnswer: 3,
-    category: "JDBC",
-    difficulty: "Medium"
-  },
-  {
-    id: 47,
-    question: "Which method is used to close a JDBC connection?",
-    options: ["close()", "disconnect()", "terminate()", "end()"],
+    question: "Which CSS property is used to make text bold?",
+    options: ["font-weight", "font-style", "text-decoration", "font-bold"],
     correctAnswer: 0,
-    category: "JDBC",
+    category: "CSS",
     difficulty: "Easy"
   },
   {
+    id: 46,
+    question: "Which CSS property is used to align text?",
+    options: ["text-align", "align", "text-alignment", "alignment"],
+    correctAnswer: 0,
+    category: "CSS",
+    difficulty: "Easy"
+  },
+  {
+    id: 47,
+    question: "Which CSS property is used to set the opacity of an element?",
+    options: ["opacity", "transparency", "alpha", "visibility"],
+    correctAnswer: 0,
+    category: "CSS",
+    difficulty: "Medium"
+  },
+  {
     id: 48,
-    question: "What happens if you don't close JDBC resources?",
-    options: ["Memory leak", "Connection pool exhaustion", "Performance degradation", "All of the above"],
-    correctAnswer: 3,
-    category: "JDBC",
+    question: "Which CSS property is used to create rounded corners?",
+    options: ["border-radius", "corner-radius", "rounded", "border-corner"],
+    correctAnswer: 0,
+    category: "CSS",
     difficulty: "Medium"
   },
   {
     id: 49,
-    question: "Which interface is used to get metadata about ResultSet?",
-    options: ["ResultSetMetaData", "MetaData", "ResultMetaData", "DatabaseMetaData"],
+    question: "Which CSS property is used to specify the stacking order of elements?",
+    options: ["z-index", "stack-order", "layer", "position"],
     correctAnswer: 0,
-    category: "JDBC",
+    category: "CSS",
     difficulty: "Medium"
   },
   {
     id: 50,
-    question: "What is the purpose of DatabaseMetaData?",
-    options: ["To get information about database", "To get information about tables", "To get information about columns", "All of the above"],
+    question: "Which CSS property is used to hide an element?",
+    options: ["display: none;", "visibility: hidden;", "opacity: 0;", "All of the above"],
     correctAnswer: 3,
-    category: "JDBC",
+    category: "CSS",
     difficulty: "Medium"
   }
 ];

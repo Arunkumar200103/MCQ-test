@@ -113,10 +113,10 @@ const TestResults: React.FC<TestResultsProps> = ({ result, onRestart }) => {
                   const categoryAnswers = result.answers.filter((answer, index) => {
                     // Find the question for this answer
                     const questionIndex = index; // Assuming answers are in order
-                    return questionIndex < 25 ? category === 'Java' : category === 'JDBC';
+                    return questionIndex < 25 ? category === 'HTML' : category === 'CSS';
                   });
                   const categoryCorrect = categoryAnswers.filter(a => a.isCorrect).length;
-                  const categoryTotal = category === 'Java' ? 25 : 25;
+                  const categoryTotal = category === 'HTML' ? 25 : 25;
                   const categoryPercentage = Math.round((categoryCorrect / categoryTotal) * 100);
                   
                   return (
@@ -132,11 +132,11 @@ const TestResults: React.FC<TestResultsProps> = ({ result, onRestart }) => {
               <h4 className="font-medium text-gray-700 mb-3">Recommendations</h4>
               <div className="text-sm text-gray-600 space-y-2">
                 {result.percentage >= 80 ? (
-                  <p>🎉 Excellent performance! You have a strong understanding of Java and JDBC concepts.</p>
+                  <p>🎉 Excellent performance! You have a strong understanding of HTML and CSS concepts.</p>
                 ) : result.percentage >= 60 ? (
                   <p>👍 Good job! Focus on reviewing the topics where you missed questions.</p>
                 ) : (
-                  <p>📚 Keep studying! Consider revisiting fundamental concepts in Java and Spring Boot.</p>
+                  <p>📚 Keep studying! Consider revisiting fundamental concepts in HTML and CSS.</p>
                 )}
               </div>
             </div>

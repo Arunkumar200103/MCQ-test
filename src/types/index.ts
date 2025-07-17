@@ -10,7 +10,7 @@ export interface Question {
   question: string;
   options: string[];
   correctAnswer: number;
-  category: 'Java' | 'JDBC';
+  category: 'HTML' | 'CSS';
   difficulty: 'Easy' | 'Medium' | 'Hard';
 }
 
