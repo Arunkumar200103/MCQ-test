@@ -109,7 +109,7 @@ const TestResults: React.FC<TestResultsProps> = ({ result, onRestart }) => {
             <div>
               <h4 className="font-medium text-gray-700 mb-3">Category Breakdown</h4>
               <div className="space-y-2">
-                {['Java', 'JDBC'].map(category => {
+                {['HTML', 'CSS'].map(category => {
                   const categoryAnswers = result.answers.filter((answer, index) => {
                     // Find the question for this answer
                     const questionIndex = index; // Assuming answers are in order
