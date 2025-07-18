@@ -116,7 +116,7 @@ const TestResults: React.FC<TestResultsProps> = ({ result, onRestart }) => {
                     return questionIndex < 25 ? category === 'Frontend' : category === 'Backend' ;
                   });
                   const categoryCorrect = categoryAnswers.filter(a => a.isCorrect).length;
-                  const categoryTotal = category === 'HTML' ? 25 : 25;
+                  const categoryTotal = category === 'Frontend' ? 25 : 25;
                   const categoryPercentage = Math.round((categoryCorrect / categoryTotal) * 100);
                   
                   return (

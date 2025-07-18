@@ -244,6 +244,7 @@ export const questions: Question[] = [
     options: ["try-catch", "throw-catch", "error-handle", "exception-handle"],
     correctAnswer: 0,
     category: "JavaScript",
+
     difficulty: "Medium"
   },
 
@@ -254,7 +255,7 @@ export const questions: Question[] = [
     options: ["public static void main(String[] args)", "public void main(String[] args)", "static void main(String[] args)", "public main(String[] args)"],
     correctAnswer: 0,
     category: "Java",
-    
+
     difficulty: "Easy"
   },
   {
@@ -311,6 +312,7 @@ export const questions: Question[] = [
     options: ["List", "Set", "Collection", "Map"],
     correctAnswer: 2,
     category: "Java",
+    
     difficulty: "Medium"
   },
   {
