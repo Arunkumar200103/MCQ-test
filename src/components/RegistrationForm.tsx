@@ -52,7 +52,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({ onRegister }) => {
             <BookOpen className="w-8 h-8 text-blue-600" />
           </div>
           <h1 className="text-3xl font-bold text-gray-800 mb-2">MCQ Test Portal</h1>
-          <p className="text-gray-600">HTML & CSS Assessment</p>
+          <p className="text-gray-600">Frontend & Backend Assessment</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -104,7 +104,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({ onRegister }) => {
             <ul className="text-sm text-blue-700 space-y-1">
               <li>• Total Questions: 50</li>
               <li>• Duration: No time limit</li>
-              <li>• Topics: HTML & CSS</li>
+              <li>• Topics: Frontend & Backend</li>
               <li>• Each question carries 1 mark</li>
             </ul>
           </div>

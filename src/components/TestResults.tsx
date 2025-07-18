@@ -113,7 +113,7 @@ const TestResults: React.FC<TestResultsProps> = ({ result, onRestart }) => {
                   const categoryAnswers = result.answers.filter((answer, index) => {
                     // Find the question for this answer
                     const questionIndex = index; // Assuming answers are in order
-                    return questionIndex < 25 ? category === 'HTML' : category === 'CSS';
+                    return questionIndex < 25 ? category === 'Frontend' : category === 'Backend' ;
                   });
                   const categoryCorrect = categoryAnswers.filter(a => a.isCorrect).length;
                   const categoryTotal = category === 'HTML' ? 25 : 25;
@@ -132,11 +132,11 @@ const TestResults: React.FC<TestResultsProps> = ({ result, onRestart }) => {
               <h4 className="font-medium text-gray-700 mb-3">Recommendations</h4>
               <div className="text-sm text-gray-600 space-y-2">
                 {result.percentage >= 80 ? (
-                  <p>🎉 Excellent performance! You have a strong understanding of HTML and CSS concepts.</p>
+                  <p>🎉 Excellent performance! You have a strong understanding of Frontend and Backend concepts.</p>
                 ) : result.percentage >= 60 ? (
                   <p>👍 Good job! Focus on reviewing the topics where you missed questions.</p>
                 ) : (
-                  <p>📚 Keep studying! Consider revisiting fundamental concepts in HTML and CSS.</p>
+                  <p>📚 Keep studying! Consider revisiting fundamental concepts in Frontend and Backend .</p>
                 )}
               </div>
             </div>
