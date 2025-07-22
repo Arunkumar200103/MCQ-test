@@ -1,83 +1,83 @@
 import { Question } from '../types';
 
-export const questions: Question[] = [
+export const alternativeQuestions: Question[] = [
   // HTML Questions (10 questions)
   {
     id: 1,
-    question: "Which HTML tag is used to create a line break?",
-    options: ["<break>", "<br>", "<lb>", "<newline>"],
-    correctAnswer: 1,
-    category: "HTML",
-    difficulty: "Easy"
-  },
-  {
-    id: 2,
-    question: "Which HTML element is used to define important text?",
-    options: ["<important>", "<i>", "<strong>", "<bold>"],
-    correctAnswer: 2,
-    category: "HTML",
-    difficulty: "Easy"
-  },
-  {
-    id: 3,
-    question: "What is the correct HTML for creating a text input field?",
-    options: ["<input type='text'>", "<textfield>", "<input type='textfield'>", "<text>"],
+    question: "Which HTML element is used to define the document title?",
+    options: ["<title>", "<header>", "<head>", "<meta>"],
     correctAnswer: 0,
     category: "HTML",
     difficulty: "Easy"
   },
   {
-    id: 4,
-    question: "Which HTML element is used to create an unordered list?",
-    options: ["<ol>", "<ul>", "<list>", "<ulist>"],
+    id: 2,
+    question: "Which HTML attribute is used to provide alternative text for images?",
+    options: ["title", "alt", "description", "text"],
     correctAnswer: 1,
+    category: "HTML",
+    difficulty: "Easy"
+  },
+  {
+    id: 3,
+    question: "Which HTML element is used to create a dropdown list?",
+    options: ["<dropdown>", "<list>", "<select>", "<option>"],
+    correctAnswer: 2,
+    category: "HTML",
+    difficulty: "Easy"
+  },
+  {
+    id: 4,
+    question: "Which HTML element is used to create an ordered list?",
+    options: ["<ol>", "<ul>", "<list>", "<order>"],
+    correctAnswer: 0,
     category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 5,
-    question: "Which attribute is used to specify the destination of a link?",
-    options: ["destination", "href", "link", "src"],
-    correctAnswer: 1,
+    question: "Which HTML attribute is used to specify an image source?",
+    options: ["href", "source", "src", "image"],
+    correctAnswer: 2,
     category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 6,
-    question: "Which HTML element is used to define a table header?",
-    options: ["<header>", "<th>", "<thead>", "<table-header>"],
-    correctAnswer: 1,
+    question: "Which HTML element is used to group table rows for styling purposes?",
+    options: ["<tbody>", "<tgroup>", "<rowgroup>", "<section>"],
+    correctAnswer: 0,
     category: "HTML",
     difficulty: "Medium"
   },
   {
     id: 7,
-    question: "Which HTML attribute is used to specify the character encoding?",
-    options: ["encoding", "charset", "character-set", "encode"],
+    question: "Which HTML attribute is used to make form fields required?",
+    options: ["mandatory", "required", "validate", "necessary"],
     correctAnswer: 1,
     category: "HTML",
     difficulty: "Medium"
   },
   {
     id: 8,
-    question: "Which HTML element is used to define a clickable area inside an image map?",
-    options: ["<area>", "<map>", "<region>", "<zone>"],
+    question: "Which HTML element is used to define a description list?",
+    options: ["<dl>", "<desc>", "<definition>", "<dlist>"],
     correctAnswer: 0,
     category: "HTML",
     difficulty: "Medium"
   },
   {
     id: 9,
-    question: "Which HTML element is used to display preformatted text?",
-    options: ["<pre>", "<code>", "<format>", "<text>"],
-    correctAnswer: 0,
+    question: "Which HTML element is used to embed external content?",
+    options: ["<external>", "<embed>", "<include>", "<object>"],
+    correctAnswer: 1,
     category: "HTML",
     difficulty: "Easy"
   },
   {
     id: 10,
-    question: "Which HTML element defines a header for a document or section?",
-    options: ["<head>", "<header>", "<top>", "<title>"],
+    question: "Which HTML element defines navigation links?",
+    options: ["<navigation>", "<nav>", "<menu>", "<links>"],
     correctAnswer: 1,
     category: "HTML",
     difficulty: "Easy"
@@ -86,81 +86,81 @@ export const questions: Question[] = [
   // CSS Questions (10 questions)
   {
     id: 11,
-    question: "Which CSS property is used to change the font family?",
-    options: ["font-family", "font-type", "typeface", "font-name"],
+    question: "Which CSS property is used to change text color?",
+    options: ["color", "text-color", "font-color", "foreground"],
     correctAnswer: 0,
     category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 12,
-    question: "Which CSS property is used to add underline to text?",
-    options: ["text-decoration", "text-underline", "underline", "decoration"],
-    correctAnswer: 0,
+    question: "Which CSS property is used to set background color?",
+    options: ["bg-color", "background-color", "back-color", "color-background"],
+    correctAnswer: 1,
     category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 13,
-    question: "How do you select the first child element in CSS?",
-    options: [":first", ":first-child", ":child-first", ":first-element"],
+    question: "How do you select elements by class name in CSS?",
+    options: ["#classname", ".classname", "@classname", "classname"],
     correctAnswer: 1,
     category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 14,
-    question: "Which CSS property is used to set the height of an element?",
-    options: ["height", "size", "length", "tall"],
+    question: "Which CSS property is used to set the width of an element?",
+    options: ["width", "size", "length", "wide"],
     correctAnswer: 0,
     category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 15,
-    question: "Which CSS property is used to make text bold?",
-    options: ["font-weight", "font-bold", "text-weight", "bold"],
+    question: "Which CSS property is used to make text italic?",
+    options: ["font-style", "text-style", "font-italic", "italic"],
     correctAnswer: 0,
     category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 16,
-    question: "Which CSS property is used to control the opacity of an element?",
-    options: ["opacity", "transparent", "alpha", "visibility"],
-    correctAnswer: 0,
+    question: "Which CSS property is used to hide an element?",
+    options: ["hide", "display", "visible", "show"],
+    correctAnswer: 1,
     category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 17,
-    question: "Which CSS property is used to set the minimum width of an element?",
-    options: ["min-width", "minimum-width", "width-min", "smallest-width"],
+    question: "Which CSS property is used to set the maximum height of an element?",
+    options: ["max-height", "maximum-height", "height-max", "largest-height"],
     correctAnswer: 0,
     category: "CSS",
     difficulty: "Easy"
   },
   {
     id: 18,
-    question: "Which CSS property is used for CSS animations?",
-    options: ["animation", "animate", "transition", "transform"],
-    correctAnswer: 0,
+    question: "Which CSS property is used for smooth transitions between states?",
+    options: ["animation", "transition", "transform", "smooth"],
+    correctAnswer: 1,
     category: "CSS",
     difficulty: "Medium"
   },
   {
     id: 19,
-    question: "Which CSS property is used to create flexible layouts?",
-    options: ["flex", "flexible", "layout", "grid"],
+    question: "Which CSS property is used to create grid layouts?",
+    options: ["grid", "layout", "flex", "table"],
     correctAnswer: 0,
     category: "CSS",
     difficulty: "Medium"
   },
   {
     id: 20,
-    question: "Which CSS pseudo-class is used to style links when hovered?",
-    options: [":hover", ":link", ":active", ":visited"],
-    correctAnswer: 0,
+    question: "Which CSS pseudo-class is used to style the last child element?",
+    options: [":last", ":last-child", ":final", ":end"],
+    correctAnswer: 1,
     category: "CSS",
     difficulty: "Medium"
   },
@@ -168,81 +168,81 @@ export const questions: Question[] = [
   // JavaScript Questions (10 questions)
   {
     id: 21,
-    question: "Which keyword is used to declare a variable that cannot be reassigned?",
-    options: ["var", "let", "const", "final"],
-    correctAnswer: 2,
+    question: "Which keyword is used to declare a block-scoped variable?",
+    options: ["var", "let", "const", "variable"],
+    correctAnswer: 1,
     category: "JavaScript",
     difficulty: "Easy"
   },
   {
     id: 22,
-    question: "Which method is used to remove the first element from an array?",
-    options: ["shift()", "unshift()", "pop()", "push()"],
-    correctAnswer: 0,
+    question: "Which method is used to add an element to the end of an array?",
+    options: ["add()", "append()", "push()", "insert()"],
+    correctAnswer: 2,
     category: "JavaScript",
     difficulty: "Easy"
   },
   {
     id: 23,
-    question: "Which of the following is used to check the data type of a variable?",
-    options: ["typeof", "datatype", "type", "instanceof"],
-    correctAnswer: 0,
+    question: "Which operator is used for strict equality comparison?",
+    options: ["==", "===", "=", "!="],
+    correctAnswer: 1,
     category: "JavaScript",
     difficulty: "Easy"
   },
   {
     id: 24,
-    question: "Which method is used to convert a string to lowercase?",
-    options: ["toLower()", "lowerCase()", "toLowerCase()", "lower()"],
+    question: "Which method is used to convert a string to uppercase?",
+    options: ["toUpper()", "upperCase()", "toUpperCase()", "upper()"],
     correctAnswer: 2,
     category: "JavaScript",
     difficulty: "Easy"
   },
   {
     id: 25,
-    question: "Which symbol is used to access object properties?",
-    options: [".", "->", "::", "#"],
+    question: "Which method is used to get the length of a string?",
+    options: [".length", ".size", ".count", ".len"],
     correctAnswer: 0,
     category: "JavaScript",
     difficulty: "Easy"
   },
   {
     id: 26,
-    question: "Which method is used to convert a JSON object to a string?",
-    options: ["JSON.stringify()", "JSON.toString()", "JSON.parse()", "JSON.convert()"],
+    question: "Which method is used to parse a JSON string into an object?",
+    options: ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.decode()"],
     correctAnswer: 0,
     category: "JavaScript",
     difficulty: "Medium"
   },
   {
     id: 27,
-    question: "Which keyword is used to skip the current iteration of a loop?",
-    options: ["skip", "continue", "next", "pass"],
-    correctAnswer: 1,
+    question: "Which keyword is used to exit from a loop completely?",
+    options: ["exit", "stop", "break", "end"],
+    correctAnswer: 2,
     category: "JavaScript",
     difficulty: "Medium"
   },
   {
     id: 28,
-    question: "Which method is used to create a new array with transformed elements?",
-    options: ["map()", "filter()", "reduce()", "forEach()"],
-    correctAnswer: 0,
+    question: "Which method is used to filter array elements based on a condition?",
+    options: ["map()", "filter()", "reduce()", "find()"],
+    correctAnswer: 1,
     category: "JavaScript",
     difficulty: "Medium"
   },
   {
     id: 29,
-    question: "Which method is used to find the index of an element in an array?",
-    options: ["indexOf()", "findIndex()", "search()", "locate()"],
+    question: "Which method is used to execute a function for each array element?",
+    options: ["forEach()", "each()", "iterate()", "loop()"],
     correctAnswer: 0,
     category: "JavaScript",
     difficulty: "Medium"
   },
   {
     id: 30,
-    question: "Which method is used to combine two or more arrays?",
-    options: ["concat()", "merge()", "combine()", "join()"],
-    correctAnswer: 0,
+    question: "Which method is used to convert an array to a string?",
+    options: ["toString()", "stringify()", "join()", "convert()"],
+    correctAnswer: 2,
     category: "JavaScript",
     difficulty: "Medium"
   },
@@ -250,81 +250,81 @@ export const questions: Question[] = [
   // Java Questions (10 questions)
   {
     id: 31,
-    question: "Which method is the entry point of a Java application?",
-    options: ["start()", "main()", "begin()", "run()"],
-    correctAnswer: 1,
+    question: "Which keyword is used to define a class in Java?",
+    options: ["class", "Class", "define", "create"],
+    correctAnswer: 0,
     category: "Java",
     difficulty: "Easy"
   },
   {
     id: 32,
-    question: "Which keyword is used to inherit from a superclass?",
-    options: ["inherits", "extends", "super", "parent"],
+    question: "Which keyword is used to implement an interface?",
+    options: ["extends", "implements", "uses", "interface"],
     correctAnswer: 1,
     category: "Java",
     difficulty: "Easy"
   },
   {
     id: 33,
-    question: "Which of the following is a wrapper class for int?",
-    options: ["Int", "Integer", "IntObject", "IntWrapper"],
-    correctAnswer: 1,
-    category: "Java",
-    difficulty: "Easy"
-  },
-  {
-    id: 34,
-    question: "Which access modifier allows access from anywhere?",
-    options: ["private", "protected", "public", "default"],
+    question: "Which of the following is a primitive data type in Java?",
+    options: ["String", "Integer", "int", "Array"],
     correctAnswer: 2,
     category: "Java",
     difficulty: "Easy"
   },
   {
+    id: 34,
+    question: "Which access modifier restricts access to the same class only?",
+    options: ["private", "protected", "public", "default"],
+    correctAnswer: 0,
+    category: "Java",
+    difficulty: "Easy"
+  },
+  {
     id: 35,
-    question: "Which method is used to convert a string to an integer?",
-    options: ["Integer.parseInt()", "Integer.valueOf()", "String.toInt()", "Both Integer.parseInt() and Integer.valueOf()"],
-    correctAnswer: 3,
+    question: "Which method is used to get the length of an array?",
+    options: ["length()", "size()", "length", "count()"],
+    correctAnswer: 2,
     category: "Java",
     difficulty: "Easy"
   },
   {
     id: 36,
-    question: "Which keyword is used to call the parent class constructor?",
-    options: ["parent", "super", "this", "base"],
+    question: "Which keyword is used to refer to the current object instance?",
+    options: ["self", "this", "current", "me"],
     correctAnswer: 1,
     category: "Java",
     difficulty: "Easy"
   },
   {
     id: 37,
-    question: "Which exception is thrown when dividing by zero?",
-    options: ["DivideByZeroException", "ArithmeticException", "MathException", "ZeroDivisionException"],
+    question: "Which exception is thrown when accessing an invalid array index?",
+    options: ["IndexOutOfBoundsException", "ArrayIndexOutOfBoundsException", "InvalidIndexException", "BoundsException"],
     correctAnswer: 1,
     category: "Java",
     difficulty: "Medium"
   },
   {
     id: 38,
-    question: "Which collection maintains insertion order and allows duplicates?",
-    options: ["Set", "HashSet", "ArrayList", "TreeSet"],
+    question: "Which collection does not allow duplicate elements?",
+    options: ["List", "ArrayList", "Set", "Vector"],
     correctAnswer: 2,
     category: "Java",
     difficulty: "Medium"
   },
   {
     id: 39,
-    question: "Which keyword prevents a class from being subclassed?",
-    options: ["final", "sealed", "abstract", "static"],
+    question: "Which keyword prevents a method from being overridden?",
+    options: ["final", "static", "abstract", "private"],
     correctAnswer: 0,
     category: "Java",
     difficulty: "Medium"
   },
   {
     id: 40,
-    question: "Which interface is used for functional programming in Java 8?",
-    options: ["Function", "Lambda", "Functional", "Stream"],
-    correctAnswer: 0,
+    question: "Which collection maintains elements in sorted order?",
+    options: ["HashSet", "LinkedHashSet", "TreeSet", "ArrayList"],
+    correctAnswer: 2,
     category: "Java",
     difficulty: "Medium"
   },
@@ -332,41 +332,41 @@ export const questions: Question[] = [
   // Spring Boot Questions (5 questions)
   {
     id: 41,
-    question: "Which annotation is used to mark a class as a service layer component?",
-    options: ["@Service", "@Component", "@Repository", "@Controller"],
-    correctAnswer: 0,
+    question: "Which annotation is used to mark a class as a REST controller?",
+    options: ["@Controller", "@RestController", "@WebController", "@ApiController"],
+    correctAnswer: 1,
     category: "Spring Boot",
     difficulty: "Easy"
   },
   {
     id: 42,
-    question: "Which annotation is used to handle HTTP PUT requests?",
-    options: ["@Put", "@PutMapping", "@RequestPut", "@HttpPut"],
+    question: "Which annotation is used to handle HTTP GET requests?",
+    options: ["@Get", "@GetMapping", "@RequestGet", "@HttpGet"],
     correctAnswer: 1,
     category: "Spring Boot",
     difficulty: "Easy"
   },
   {
     id: 43,
-    question: "Which annotation is used to mark a class as a configuration class?",
-    options: ["@Config", "@Configuration", "@Settings", "@Properties"],
+    question: "Which annotation is used to inject dependencies automatically?",
+    options: ["@Inject", "@Autowired", "@Dependency", "@Wire"],
     correctAnswer: 1,
     category: "Spring Boot",
     difficulty: "Easy"
   },
   {
     id: 44,
-    question: "Which annotation is used to bind path variables in URLs?",
-    options: ["@PathVariable", "@RequestParam", "@PathParam", "@UrlParam"],
-    correctAnswer: 0,
+    question: "Which annotation is used to bind request parameters?",
+    options: ["@PathVariable", "@RequestParam", "@Param", "@QueryParam"],
+    correctAnswer: 1,
     category: "Spring Boot",
     difficulty: "Medium"
   },
   {
     id: 45,
-    question: "Which annotation is used to handle global exception handling?",
-    options: ["@ExceptionHandler", "@ControllerAdvice", "@GlobalHandler", "@ErrorHandler"],
-    correctAnswer: 1,
+    question: "Which annotation is used to mark a class as a repository component?",
+    options: ["@Repository", "@Data", "@Entity", "@Component"],
+    correctAnswer: 0,
     category: "Spring Boot",
     difficulty: "Medium"
   },
@@ -374,41 +374,41 @@ export const questions: Question[] = [
   // JDBC & REST API Questions (5 questions)
   {
     id: 46,
-    question: "Which method is used to execute INSERT, UPDATE, or DELETE statements in JDBC?",
-    options: ["executeUpdate()", "executeQuery()", "execute()", "update()"],
+    question: "Which method is used to execute SELECT statements in JDBC?",
+    options: ["executeQuery()", "executeUpdate()", "execute()", "query()"],
     correctAnswer: 0,
     category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 47,
-    question: "Which method is used to close a database connection in JDBC?",
-    options: ["close()", "disconnect()", "terminate()", "end()"],
-    correctAnswer: 0,
+    question: "Which interface is used to execute SQL statements in JDBC?",
+    options: ["Connection", "Statement", "ResultSet", "Driver"],
+    correctAnswer: 1,
     category: "JDBC",
     difficulty: "Easy"
   },
   {
     id: 48,
-    question: "Which HTTP method is used to partially update a resource in REST API?",
-    options: ["PUT", "PATCH", "UPDATE", "MODIFY"],
+    question: "Which HTTP method is used to create a new resource in REST API?",
+    options: ["GET", "POST", "PUT", "DELETE"],
     correctAnswer: 1,
     category: "REST API",
     difficulty: "Easy"
   },
   {
     id: 49,
-    question: "Which HTTP status code indicates 'Not Found'?",
-    options: ["400", "401", "404", "500"],
+    question: "Which HTTP status code indicates 'Internal Server Error'?",
+    options: ["400", "404", "500", "503"],
     correctAnswer: 2,
     category: "REST API",
     difficulty: "Easy"
   },
   {
     id: 50,
-    question: "Which HTTP header is used to specify the content type of the request body?",
-    options: ["Accept", "Content-Type", "Content-Encoding", "Media-Type"],
-    correctAnswer: 1,
+    question: "Which HTTP header is used to specify acceptable response content types?",
+    options: ["Accept", "Content-Type", "Accept-Encoding", "Content-Accept"],
+    correctAnswer: 0,
     category: "REST API",
     difficulty: "Easy"
   }
